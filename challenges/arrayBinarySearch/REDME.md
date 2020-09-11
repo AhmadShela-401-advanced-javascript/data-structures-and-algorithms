@@ -24,4 +24,4 @@ if item = key
 item = result
 after for loop ends 
 it result has a value return it else result = -1 and return result
-![alt text](./assets/IMG_20200909_001921.jpg)
+![alt text](./assets/binarySearch.PNG)
