@@ -16,6 +16,27 @@ I used in the first way for loop
 and in the other way I used some mathhimatical logic to do so
 
 ## Solution
+
+psudo code :
+* create a class for Nodes that contain Head and next as property
+* require it in a new class called linked list that contain the head as a property
+* create a method iside the linked list class called insert to insert values into the linked list
+* the insert method must take tow params the value and the next
+* so in the insert method , create new instance of the node classe and give it the value as and giv it the head of the linked list as a value of the next property 
+* then giv the head of the linked list a value of the new node 
+* then create new method called includes which take in a value as a property and return true or false depending on if the value is exist ibn the linked list as a value of a node or not
+* so inside the includes methode define new variable called currentNode and giv it the value of the head of the linked list
+* now we need to see if the value of the current node  = the value that we are looking for then it return true else 
+* the currentNode = currentNode.next
+* and will repeat this process as long until the value of the current node become null which means the end of the linked list
+* after that create a new method called toString this method should return the values of all the nodes in the linked list on this form `"{ a } -> { b } -> { c } -> NULL"`
+* insed the toString method define variable called currentNode that equals to the head of the list .
+* create new variable called myString that equals empty string
+* now we need to make myString = mystring + `{ the value of the currentNode } -->` .
+* and after currentNode = currentNode.next and erpeat that until the value of the current node equals 'Null'
+* at the end of ther method and before returning myString we need to add to myString new value
+`mystring =mystring + 'NULL'` .
+
 ![insert](./assets/linkedList1.PNG)
 ![include](./assets/linkedList2.PNG)
 ![include](./assets/linkedList3.PNG)
