@@ -16,7 +16,10 @@ and in the other way I used some mathhimatical logic to do so
 
 ## Solution
 iterate the array and each time check if the element equals the search key then return it else retur n -1
-
+I/O:
+the funbction take an array and a value and then return true or false
+Visual:
+[0,1,2,3],0 ---> true
 psudo code : 
 for loop on the array items 
 let result
