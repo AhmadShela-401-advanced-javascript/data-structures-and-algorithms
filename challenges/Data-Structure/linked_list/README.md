@@ -36,7 +36,18 @@ psudo code :
 * and after currentNode = currentNode.next and erpeat that until the value of the current node equals 'Null'
 * at the end of ther method and before returning myString we need to add to myString new value
 `mystring =mystring + 'NULL'` .
-
+* Add new method to the linked list class that called `append(val)` to Add new node to the end of the linked list
+and takes in a value as a parameter.
+* create new instance from the node classe and give it the new value as a value and null as a next
+*  in the append methiod we will define new variable `currentNode` that equals the head of the and check `currentNode.next` is null
+then the `currentNode.next = newNode` if not loop in the linked list until it happend
+* after that we need to create new method that call `insertBefore(value, newVal)` which add a new node with the given `newValue` immediately before the first `value` node
+* now in the the insertBefore method we will create new instane of the the Node class that take a `newVal` as value and null as next
+* and define new variable called transNode = the head of the linked list
+* and define a variable vall myNode
+* now if the value of the `transNode` = the `value` then the `myNode = transNode.next`
+* then `newNode.next = myNode`
+* and then `transNode.next = newNode`
 ![insert](./assets/linkedList1.PNG)
 ![include](./assets/linkedList2.PNG)
 ![include](./assets/linkedList3.PNG)
