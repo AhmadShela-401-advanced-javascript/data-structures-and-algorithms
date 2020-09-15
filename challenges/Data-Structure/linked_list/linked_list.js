@@ -49,6 +49,7 @@ class LinkedList{
             currentNode = currentNode.next
         }
         currentNode.next = new Node(val)
+        this.length++;
     }
     insertBefore(value, newVal){
         let targetNode ;
@@ -59,6 +60,7 @@ class LinkedList{
         targetNode = currentNode.next
         let newNode = new Node(newVal,targetNode)
         currentNode.next = newNode;
+        this.length++;
     }
     insertAfter(value, newVal){
         let targetNode ;
@@ -69,6 +71,34 @@ class LinkedList{
         targetNode = currentNode.next
         let newNode = new Node(newVal,targetNode)
         currentNode.next = newNode;
+        this.length++;
+    }
+    kthFromEnd(k){
+        if (typeof k != 'number') { throw Error('K must be a number'); }
+
+        if (k < 0) {
+            throw Error('Value can not be less than 0');
+        }
+
+        var arrLength = 0;
+        var currentNode = this.head;
+        while(currentNode){
+            currentNode = currentNode.next;
+            arrLength++;
+        }
+        if (k > arrLength) {
+            console.log('>>>>>>>>>>>>>>arrLength',arrLength);
+            console.log('>>>>>>>>>>>>>>k',k);
+            throw Error('Value aout of range');
+        }
+        arrLength--;
+        arrLength = arrLength - k;
+        currentNode = this.head
+        for (let i = 0; i < arrLength; i++) {
+            currentNode = currentNode.next
+        }
+        return currentNode.value;
+
     }
 }
 
