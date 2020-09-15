@@ -40,7 +40,7 @@ describe('linked list module', () => {
         while(currentNode.value != 6){
             currentNode = currentNode.next
         }
-        console.log(currentNode);
+        // console.log(currentNode);
         expect(currentNode.next.value).toEqual(5)
     })
     it('the insertAfter method add the newVal right After the val',()=>{
@@ -50,7 +50,15 @@ describe('linked list module', () => {
         while(currentNode.value != 6){
             currentNode = currentNode.next
         }
-        console.log(list);
+        // console.log(list);
         expect(currentNode.next.value).toEqual(7)
+    });
+    it('the ll.kthFromEnd method return the Val of the node k starting from the end of the list',()=>{
+        list.append(1);
+        list.append(2);
+        list.append(3);
+        list.insert(9);
+        console.log('>> LL',list);
+        expect(list.kthFromEnd(10)).toEqual(9)
     })
 });
