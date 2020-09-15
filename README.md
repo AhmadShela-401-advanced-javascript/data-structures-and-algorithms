@@ -13,6 +13,7 @@ codeChallenge3    | [array-binary-search](https://github.com/AhmadShela-401-adva
 codeChallenge5    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/5)
 codeChallenge6    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/8)
 codeChallenge7    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/9)
+codeChallenge8    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/12)
   
 
 
