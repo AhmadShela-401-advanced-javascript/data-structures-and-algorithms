@@ -44,13 +44,26 @@ class LinkedList{
     }
     append(val){
         //  new Node(val);
-        let currentNode = this.head
-        while(currentNode.next){
-            currentNode = currentNode.next
+        if(!this.head){
+            console.log('..................11',this);
+            this.head = new Node(val,null);
+            return this
         }
-        currentNode.next = new Node(val)
-        this.length++;
+            console.log('..................22',this);
+            let currentNode = this.head
+        // if(! currentNode){
+        //     currentNode = new Node(val)
+        // }else{
+            while(currentNode.next){
+                currentNode = currentNode.next
+            }
+            currentNode.next = new Node(val,null)
+            this.length++;
+        // }
+        return this
+
     }
+
     insertBefore(value, newVal){
         let targetNode ;
         let currentNode = this.head

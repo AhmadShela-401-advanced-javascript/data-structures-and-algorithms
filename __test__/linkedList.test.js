@@ -58,7 +58,7 @@ describe('linked list module', () => {
         list.append(2);
         list.append(3);
         list.insert(9);
-        console.log('>> LL',list);
+        // console.log('>> LL',list);
         expect(list.kthFromEnd(10)).toEqual(9)
     })
 });
