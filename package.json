@@ -4,7 +4,9 @@
   "description": "## Challenge 1 # Reverse an Array the arrays in js has a build in function to revers it's values",
   "main": "index.js",
   "scripts": {
-    "test": "jest --verbose --coverage"
+    "test": "jest stacksAndQueues.test.js --verbose --coverage",
+    "lint":"eslint '**/*.js'",
+    "lint:js:fix": "eslint './**/*.js' --ignore-pattern node_modules/ --fix" 
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   },
   "homepage": "https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms#readme",
   "dependencies": {
+    "eslint": "^7.9.0",
     "jest": "^26.4.2"
   }
 }
