@@ -12,8 +12,13 @@ codeChallenge2    | [Shift an array](https://github.com/AhmadShela-401-advanced-
 codeChallenge3    | [array-binary-search](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/4)
 codeChallenge5    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/5)
 codeChallenge6    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/8)
-codeChallenge7    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/9)
-codeChallenge8    | [linked list](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/12)
+codeChallenge7    | [ll-insertions](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/9)
+codeChallenge8    | [ll-kth-from-end](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/12)
+codeChallenge9    | [ll-zip](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/11)
+codeChallenge10    | [stack-and-queue](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/13)
+codeChallenge11   | [queue-with-stacks ](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/14)
+codeChallenge12   | [fifo-animal-shelter](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/15)
+codeChallenge13   | [multi-bracket-validation](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/16)
   
 
 
