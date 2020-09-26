@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 'use strict';
 
 const Node = require('./Node');
@@ -10,7 +11,7 @@ describe('Tree',()=>{
     expect(tree instanceof Tree).toBeTruthy();
   });
   it('Can successfully instantiate a tree with a single root node',()=>{
-    let node = new Node(5)
+    let node = new Node(5);
     let tree = new Tree(node);
     expect(tree.root.value).toBe(5);
   });
