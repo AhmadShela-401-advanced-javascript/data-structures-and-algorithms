@@ -3,9 +3,6 @@
 const Node = require('./Node');
 class BinarySearchTree{
   constructor(){}
-  add(val){
-
-  }
   contains(data){ 
     const node = this.root;
     let search =(node, data) =>
