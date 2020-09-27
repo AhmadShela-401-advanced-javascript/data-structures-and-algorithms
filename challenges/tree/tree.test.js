@@ -51,4 +51,11 @@ describe('Tree',()=>{
     tree.root.right = new Node(6);
     expect(tree.preOrder()).toBeTruthy();
   });
+  it('Can successfully return a max Value from a when calling findMaxValue',()=>{
+    let node = new Node(5);
+    let tree = new Tree(node);
+    tree.root.left = new Node(4);
+    tree.root.right = new Node(6);
+    expect(tree.findMaximumValue()).toBe(6);
+  });
 });
