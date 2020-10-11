@@ -10,3 +10,5 @@ Once you are done with your article, code a working, tested implementation of In
 this function will contain aneasted loop which increases the big(O) for the algorithm
 
 ## Blog
+
+![Blog](../../assets/CC26.png)
