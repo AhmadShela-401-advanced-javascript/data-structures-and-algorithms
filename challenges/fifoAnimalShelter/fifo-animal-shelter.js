@@ -17,8 +17,10 @@ class AnimalShelter {
         let deletedValue = val && val.toLowerCase() || null;
         let i = 0;
         if (deletedValue) {
-            while (this.queue[i].type !== deletedValue) {
-                i++;
+            if(this.queue[i]){
+                while (this.queue[i].type !== deletedValue) {
+                    i++;
+                }
             }
         }
 
