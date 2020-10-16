@@ -20,6 +20,12 @@ codeChallenge11   | [queue-with-stacks ](https://github.com/AhmadShela-401-advan
 codeChallenge12   | [fifo-animal-shelter](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/15)
 codeChallenge13   | [multi-bracket-validation](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/16)
 codeChallenge14   | [tree](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/18)
+codeChallenge16   | [Find maximum binary tree ](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/20)
+codeChallenge17   | [CC17](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/21)
+codeChallenge14   | [FuzzBuzz](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/22)
+codeChallenge26   | [insertion sort](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/23)
+codeChallenge27   | [CC27](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/24)
+codeChallenge28   | [CC28](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/23)
   
 
 
