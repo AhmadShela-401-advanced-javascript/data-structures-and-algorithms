@@ -22,16 +22,31 @@ class LinkedList{
     this.length++;
     return this;
   }
+  getBykeyName(val){
+    let currentNode = this.head;
+    while(currentNode){
+      if(Object.keys(currentNode.value)[0] == val){
+        return currentNode.value[val];
+      }
+      currentNode = currentNode.next;
+    }
+    return {'Error':'NotExist'};
+  }
   includes(val){
     let currentNode = this.head;
     while(currentNode){
-      if(currentNode.value == val){
+      // console.log(typeof(currentNode.value))
+      if(typeof currentNode.value === 'object'){
+        // console.log('object');
+        if(Object.keys(currentNode.value)[0] == val){
+          return true;
+        }
+      }else if(currentNode.value == val){
         return true;
       }
       currentNode = currentNode.next;
     }
     return false;
-
   }
   tostring(){
     let string = '';
