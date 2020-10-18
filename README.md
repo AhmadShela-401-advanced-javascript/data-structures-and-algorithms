@@ -27,6 +27,7 @@ codeChallenge26   | [insertion sort](https://github.com/AhmadShela-401-advanced-
 codeChallenge27   | [CC27](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/24)
 codeChallenge28   | [CC28](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/23)
 codeChallenge29   | [hashTable](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/25)
+codeChallenge30   | [repeated_word](https://github.com/AhmadShela-401-advanced-javascript/data-structures-and-algorithms/pull/26)
   
 
 
