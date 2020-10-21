@@ -20,7 +20,7 @@ class HashTable {
       return console.log('the key is exist before');
     }
     let hashIndex = this.hash(key);
-    console.log('hashIndex: ',hashIndex);
+    // console.log("hashIndex: ",hashIndex)
     if(!this.entries[hashIndex]) {
       // create a new one
       this.entries[hashIndex] = new LinkedList();
@@ -32,9 +32,20 @@ class HashTable {
     return this.entries[this.hash(key)] ? this.entries[this.hash(key)].getBykeyName(key) : 'NotFound';
     // return 
   }
+  update(key,value){
+    if(this.contains(key)){
+      let entry = { [key]: value };
+      // console.log('before--->',this.entries[this.hash(key)].head.value);
+      this.entries[this.hash(key)].head.value = entry;
+      // console.log('after--->',this.entries[this.hash(key)].head.value);
+    }else{
+      this.add(key,value);
+    }
+  }
   contains(key) {
     // console.log(this.entries[this.hash(key)])
     return this.entries[this.hash(key)] ? this.entries[this.hash(key)].includes(key) : false;
   }
 }
+
 module.exports = HashTable;
