@@ -4,7 +4,7 @@
   "description": "## Challenge 1 # Reverse an Array the arrays in js has a build in function to revers it's values",
   "main": "index.js",
   "scripts": {
-    "test": "jest treeinsertation.test.js --verbose --coverage",
+    "test": "jest joinLeft.test.js --verbose --coverage",
     "lint": "eslint '**/*.js'",
     "lint:js:fix": "eslint './**/*.js' --ignore-pattern node_modules/ --fix"
   },
