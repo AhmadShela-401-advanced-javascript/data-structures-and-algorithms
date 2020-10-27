@@ -23,7 +23,11 @@ class Graph {
     // console.log('hi',this);
     this.size++;
   }
-
+  addUndirectedEdge(a, b, weight) {
+    const first = this.addDirectedEdge(a, b, weight);
+    const second = this.addDirectedEdge(b, a, weight);
+    return [first, second];
+  }
   addDirectedEdge(startVertex, endVertex, weight) {
     if (!this._adjacencyList.has(startVertex) || !this._adjacencyList.has(endVertex)) {
       // console.log("Vertex not found !!!")
